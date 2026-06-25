@@ -25,8 +25,8 @@ FONTES = "site:g1.globo.com OR site:uol.com.br OR site:cnnbrasil.com.br"
 CATEGORIAS = [
     {"emoji": "🏛️", "nome": "Política", "busca": f"política Brasil hoje {FONTES}"},
     {"emoji": "💰", "nome": "Economia", "busca": f"economia Brasil hoje {FONTES}"},
-    {"emoji": "🗳️", "nome": "Eleições", "busca": f"eleições 2026 Brasil {FONTES}"
-    {"emoji": "🎭", "nome": "Cultura", "busca": f"cultura entretenimento Brasil hoje {FONTES}"},},
+    {"emoji": "🗳", "nome": "Eleicoes", "busca": f"eleicoes 2026 Brasil {FONTES}"},
+    {"emoji": "🎭", "nome": "Cultura", "busca": f"cultura entretenimento Brasil hoje {FONTES}"},
 ]
 
 def buscar_noticias(busca):
