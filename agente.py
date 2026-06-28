@@ -12,10 +12,7 @@ TWILIO_SID = os.environ.get("TWILIO_SID")
 TWILIO_TOKEN = os.environ.get("TWILIO_TOKEN")
 TWILIO_NUMERO = "whatsapp:+14155238886"
 
-NUMEROS = [
-    "whatsapp:+5521991845374",
-    "whatsapp:+5521996504112","whatsapp:+5511991831244"
-]
+NUMEROS = os.environ.get("WHATSAPP_NUMEROS", "").split(",")
 
 cliente_groq = Groq(api_key=GROQ_KEY)
 cliente_twilio = Client(TWILIO_SID, TWILIO_TOKEN)
